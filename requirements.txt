@@ -1,0 +1,4 @@
+requests
+flask
+python-dotenv
+-e git+https://github.com/mikeabrahamsen/flask-dance@add-digitalocean-provider#egg=flask-dance

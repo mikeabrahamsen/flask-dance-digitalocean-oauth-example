@@ -1,0 +1,12 @@
+<html>
+    <div>
+    {% if servers %}
+        {% for server in servers %}
+            <p>{{ server.name }} - Status: {{ server.status }}</p>
+        {% endfor %}
+    {% else %}
+    <p>No Servers Found On Your Account</p>
+    <p>If this seems wrong, try to reconnect to Digital Ocean <a href="{{ oauth_url }}">here</a></p>
+    {% endif %}
+    </div>
+</html>

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite
+dump.rdb
+venv/
+.flaskenv
+.env

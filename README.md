@@ -9,8 +9,8 @@ necessary information.
 ```sh
 FLASK_ENV=development
 SECRET_KEY="enter your key"
-DIGITAL_OCEAN_CLIENT_ID = "found at https://cloud.digitalocean.com/account/api/applications"
-DIGITAL_OCEAN_CLIENT_SECRET = "found at https://cloud.digitalocean.com/account/api/applications"
+DIGITALOCEAN_CLIENT_ID = "found at https://cloud.digitalocean.com/account/api/applications"
+DIGITALOCEAN_CLIENT_SECRET = "found at https://cloud.digitalocean.com/account/api/applications"
 ```
 
 # Run the application
